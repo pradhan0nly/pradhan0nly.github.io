@@ -7,7 +7,7 @@ subtitle: PhD Virginia Tech <a href='https://wireless.vt.edu/'>Wireless@VT</a>.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>470 Durham, 1145 Perry St.</p>
     <p>Virginia Tech</p>

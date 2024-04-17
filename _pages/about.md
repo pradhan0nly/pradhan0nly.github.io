@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Virginia Tech <a href='https://wireless.vt.edu/'>Wireless@VT</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>470 Durham, 1145 Perry St.</p>
+    <p>Virginia Tech</p>
+    <p>Blacksburg, VA 24061</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a graduate student in the Bradley Department of Electrical and Computer Engineering at Virginia Tech under the supervision of Dr. Harpreet S. Dhillon. I finished my bachelor's degree at the top of my class in Electrical and Communication Engineering from the National Institute of Technology, Durgapur, India in 2018. In my undergraduate career, I represented India in Japan in JENESYS 2016 programme with other SAARC countries under the theme 'Telecommunication' organized by the Japan International Cooperation Center (JICE) and Ministry of Foreign Affairs of both countries. I have also interned at IISc Bangalore in my junior year. After my bachelor's, I worked as a research intern at the Wirocomm lab, IIIT Delhi in the area of theoretical massive MIMO. My research interests are currently in the area of MIMO, optimization theory, and reconfigurable intelligent surfaces.

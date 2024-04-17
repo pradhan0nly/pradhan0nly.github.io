@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Virginia Tech <a href='https://wireless.vt.edu/'>Wireless@VT</a>. <a href='https://drive.google.com/file/d/1LYUf8sulb7L8hC-8sC6hcx1qY2ixUrWu/view?usp=sharing'>My Resume</a> 
+subtitle: PhD Virginia Tech <a href='https://wireless.vt.edu/'>Wireless@VT</a>.
 
 profile:
   align: right
@@ -12,6 +12,7 @@ profile:
     <p>470 Durham, 1145 Perry St.</p>
     <p>Virginia Tech</p>
     <p>Blacksburg, VA 24061</p>
+    <a href='https://drive.google.com/file/d/1LYUf8sulb7L8hC-8sC6hcx1qY2ixUrWu/view?usp=sharing'>My Resume</a> 
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

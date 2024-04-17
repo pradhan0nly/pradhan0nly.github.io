@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Virginia Tech <a href='https://wireless.vt.edu/'>Wireless@VT</a>.
+subtitle: PhD Virginia Tech <a href='https://wireless.vt.edu/'>Wireless@VT</a>. <a href='https://drive.google.com/file/d/1LYUf8sulb7L8hC-8sC6hcx1qY2ixUrWu/view?usp=sharing'>My Resume</a> 
 
 profile:
   align: right

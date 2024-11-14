@@ -60,8 +60,8 @@
       "url": "https://www.vt.edu/",
       "area": "Electrical Engineering",
       "studyType": "Ph.D.",
-      "startDate": "2019-08-01",
-      "endDate": "2025-05-01",
+      "startDate": "Aug. 2019",
+      "endDate": "May 2025",
       "score": "3.87",
       "courses": ["Stochastic Signals and Systems"]
     },
@@ -71,71 +71,10 @@
       "url": "https://www.nitdgp.ac.in/",
       "area": "Electronics and Communication Engineering",
       "studyType": "B.Tech.",
-      "startDate": "2014-01-01",
-      "endDate": "2018-01-01",
+      "startDate": "2014",
+      "endDate": "2018",
       "score": "9.6",
       "courses": ["Reliable IoT Communication in LTE"]
-    }
-  ],
-  "publications": [
-    {
-      "name": "Implementation of relay hopper model for reliable communication of IoT devices in LTE environment through D2D link",
-      "publisher": "IEEE COMSNETS",
-      "releaseDate": "2018"
-    },
-    {
-      "name": "Radial sub-band allocation with downlink interference mitigation in macro–femto environment",
-      "publisher": "Wireless Personal Commun.",
-      "releaseDate": "2019"
-    },
-    {
-      "name": "A downlink multiuser MIMO–OFDM system with nonideal oscillators and amplifiers: Characterization and performance analysis",
-      "publisher": "IEEE Systems Journal",
-      "releaseDate": "2020"
-    },
-    {
-      "name": "Intelligent Surface Optimization in Terahertz under Two Manifestations of Molecular Re-radiation",
-      "publisher": "IEEE GLOBECOM",
-      "releaseDate": "2021"
-    },
-    {
-      "name": "Robust optimization of ris in terahertz under extreme molecular re-radiation manifestations",
-      "publisher": "IEEE Trans. on Wireless Commun.",
-      "releaseDate": "2023"
-    },
-    {
-      "name": "A Probabilistic Reformulation Technique for Discrete RIS Optimization in Wireless Systems",
-      "publisher": "IEEE Trans. on Wireless Commun.",
-      "releaseDate": "2023"
-    },
-    {
-      "name": "OTFS Enabled RIS-Aided Localization: Fundamental Limits and Potential Drawbacks",
-      "publisher": "2023 IEEE/ION Position, Location and Navigation Symposium (PLANS)",
-      "releaseDate": "2023"
-    },
-    {
-      "name": "Stochastic Geometry Analysis of a New GSCM with Dual Visibility Regions",
-      "publisher": "IEEE PIMRC",
-      "releaseDate": "2023"
-    },
-    {
-      "name": "Novel LoS β-γ THz Channel Unifying Molecular Re-radiation Manifestations",
-      "publisher": "IEEE Trans. on Vehicular Technology",
-      "releaseDate": "2024"
-    },
-    {
-      "name": "Novel Probabilistic Reformulation Technique for Unconstrained Discrete RIS Optimization",
-      "publisher": "IEEE PIMRC",
-      "releaseDate": "2023"
-    },
-    {
-      "name": "RIS-Aided Coexistence in Wireless Networks Using Angular Information",
-      "publisher": "Nature Scientific Reports",
-      "releaseDate": "2024"
-    },
-    {
-      "name": "A Beamshaping Framework for Physically Consistent Reconfigurable Intelligent Surfaces",
-      "publisher": "submitted to ICC 2025"
     }
   ],
   "skills": [
@@ -154,16 +93,19 @@
     {
       "language": "English",
       "fluency": "Fluent",
+    },
+	{
+      "language": "Bengali",
+      "fluency": "Fluent",
+    },
+	{
+      "language": "Hindi",
+      "fluency": "Conversational",
     }
   ],
   "interests": [
     {
-      "keywords": ["Wireless Communications", "Reconfigurable Intelligent Surfaces", "Channel Modeling", "Optimization"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
+      "keywords": ["Wireless Communications", "Reconfigurable Intelligent Surfaces", "Phased Antenna Array", "Beam Management", "Optimization", "Probability", "Channel Modeling"]
     }
   ]
 }

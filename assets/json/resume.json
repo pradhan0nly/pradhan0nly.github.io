@@ -13,6 +13,19 @@
       "countryCode": "US",
       "region": "Virginia"
     },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Anish Pradhan",
+        "url": "https://www.linkedin.com/in/anish-pradhan/"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Anish Pradhan",
+        "url": "https://scholar.google.com/citations?user=i9w1eBAAAAAJ&hl=en"
+      }
+    ]
+  },
   "work": [
     {
       "name": "NXP Semiconductors",

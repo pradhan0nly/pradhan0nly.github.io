@@ -1,159 +1,185 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Anish Pradhan",
+    "label": "Ph.D. Candidate (ECE)",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "pradhananish1@vt.edu",
+    "phone": "+1 (540) 998-9087",
+    "url": "https://www.linkedin.com/in/anish-pradhan/",
+    "summary": "Ph.D. candidate in Electrical and Computer Engineering at Virginia Tech, focusing on wireless communications, reconfigurable intelligent surfaces, and optimization.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "470 Durham Hall",
+      "postalCode": "",
+      "city": "Blacksburg",
       "countryCode": "US",
-      "region": "California"
+      "region": "Virginia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "Anish Pradhan",
+        "url": "https://www.linkedin.com/in/anish-pradhan/"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Anish Pradhan",
+        "url": "https://scholar.google.com/citations?user=i9w1eBAAAAAJ&hl=en"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "NXP Semiconductors",
+      "position": "Wireless System Engineering Intern",
+      "url": "",
+      "startDate": "2024-05-01",
+      "endDate": "2024-08-01",
+      "summary": "Designed and tested beam management in mmWave Wi-Fi systems.",
+      "highlights": [
+        "Designed a reference codebook with 3D sector beams.",
+        "Integrated beam-training protocol in mmwave simulator.",
+        "Collaborated with RF team for throughput tests."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Virginia Tech",
+      "position": "Graduate Research Assistant",
+      "url": "https://wireless.vt.edu/",
+      "startDate": "2019-08-01",
+      "endDate": "Present",
+      "summary": "Research on RIS systems, ORAN, and channel modeling.",
+      "highlights": [
+        "Developed RIS-assisted THz communication framework.",
+        "Optimized RIS for coexistence with minimal information.",
+        "Established workflows for ORAN KPI extraction."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "Virginia Tech",
+      "location": "Blacksburg, Virginia",
+      "url": "https://www.vt.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2019-08-01",
+      "endDate": "2025-05-01",
+      "score": "3.87",
+      "courses": ["Stochastic Signals and Systems"]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "National Institute of Technology",
+      "location": "Durgapur, India",
+      "url": "https://www.nitdgp.ac.in/",
+      "area": "Electronics and Communication Engineering",
+      "studyType": "B.Tech.",
+      "startDate": "2014-01-01",
+      "endDate": "2018-01-01",
+      "score": "9.6",
+      "courses": ["Reliable IoT Communication in LTE"]
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Implementation of relay hopper model for reliable communication of IoT devices in LTE environment through D2D link",
+      "publisher": "IEEE COMSNETS",
+      "releaseDate": "2018",
+      "url": "",
+      "summary": ""
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Radial sub-band allocation with downlink interference mitigation in macro–femto environment",
+      "publisher": "Wireless Personal Commun.",
+      "releaseDate": "2019",
+      "url": "",
+      "summary": ""
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "A downlink multiuser MIMO–OFDM system with nonideal oscillators and amplifiers: Characterization and performance analysis",
+      "publisher": "IEEE Systems Journal",
+      "releaseDate": "2020",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Intelligent Surface Optimization in Terahertz under Two Manifestations of Molecular Re-radiation",
+      "publisher": "IEEE GLOBECOM",
+      "releaseDate": "2021",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Robust optimization of ris in terahertz under extreme molecular re-radiation manifestations",
+      "publisher": "IEEE Trans. on Wireless Commun.",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "A Probabilistic Reformulation Technique for Discrete RIS Optimization in Wireless Systems",
+      "publisher": "IEEE Trans. on Wireless Commun.",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "OTFS Enabled RIS-Aided Localization: Fundamental Limits and Potential Drawbacks",
+      "publisher": "2023 IEEE/ION Position, Location and Navigation Symposium (PLANS)",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Stochastic Geometry Analysis of a New GSCM with Dual Visibility Regions",
+      "publisher": "IEEE PIMRC",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Novel LoS β-γ THz Channel Unifying Molecular Re-radiation Manifestations",
+      "publisher": "IEEE Trans. on Vehicular Technology",
+      "releaseDate": "2024",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Novel Probabilistic Reformulation Technique for Unconstrained Discrete RIS Optimization",
+      "publisher": "IEEE PIMRC",
+      "releaseDate": "2023",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "RIS-Aided Coexistence in Wireless Networks Using Angular Information",
+      "publisher": "Nature Scientific Reports",
+      "releaseDate": "2024",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "A Beamshaping Framework for Physically Consistent Reconfigurable Intelligent Surfaces",
+      "publisher": "submitted to ICC 2025",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Communication Protocols",
+      "level": "Expert",
+      "icon": "",
+      "keywords": ["Wi-Fi (IEEE 802.11ad/ay)", "4G", "5G"]
+    },
+    {
+      "name": "Programming Languages/Tools",
+      "level": "Advanced",
+      "icon": "",
+      "keywords": ["MATLAB", "LATEX", "Python", "C++"]
     }
   ],
   "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
     {
       "language": "English",
       "fluency": "Fluent",
@@ -162,38 +188,14 @@
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "keywords": ["Wireless Communications", "Reconfigurable Intelligent Surfaces", "Channel Modeling", "Optimization"]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Available upon request",
+      "icon": "",
+      "reference": ""
     }
   ]
 }

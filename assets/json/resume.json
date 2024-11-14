@@ -2,14 +2,13 @@
   "basics": {
     "name": "Anish Pradhan",
     "label": "Ph.D. Candidate (ECE)",
-    "image": "",
     "email": "pradhananish1@vt.edu",
     "phone": "+1 (540) 998-9087",
     "url": "https://www.linkedin.com/in/anish-pradhan/",
     "summary": "Ph.D. candidate in Electrical and Computer Engineering at Virginia Tech, focusing on wireless communications, reconfigurable intelligent surfaces, and optimization.",
     "location": {
       "address": "470 Durham Hall",
-      "postalCode": "",
+      "postalCode": "24061",
       "city": "Blacksburg",
       "countryCode": "US",
       "region": "Virginia"
@@ -31,7 +30,6 @@
     {
       "name": "NXP Semiconductors",
       "position": "Wireless System Engineering Intern",
-      "url": "",
       "startDate": "2024-05-01",
       "endDate": "2024-08-01",
       "summary": "Designed and tested beam management in mmWave Wi-Fi systems.",
@@ -83,99 +81,72 @@
     {
       "name": "Implementation of relay hopper model for reliable communication of IoT devices in LTE environment through D2D link",
       "publisher": "IEEE COMSNETS",
-      "releaseDate": "2018",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2018"
     },
     {
       "name": "Radial sub-band allocation with downlink interference mitigation in macro–femto environment",
       "publisher": "Wireless Personal Commun.",
-      "releaseDate": "2019",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2019"
     },
     {
       "name": "A downlink multiuser MIMO–OFDM system with nonideal oscillators and amplifiers: Characterization and performance analysis",
       "publisher": "IEEE Systems Journal",
-      "releaseDate": "2020",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2020"
     },
     {
       "name": "Intelligent Surface Optimization in Terahertz under Two Manifestations of Molecular Re-radiation",
       "publisher": "IEEE GLOBECOM",
-      "releaseDate": "2021",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2021"
     },
     {
       "name": "Robust optimization of ris in terahertz under extreme molecular re-radiation manifestations",
       "publisher": "IEEE Trans. on Wireless Commun.",
-      "releaseDate": "2023",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2023"
     },
     {
       "name": "A Probabilistic Reformulation Technique for Discrete RIS Optimization in Wireless Systems",
       "publisher": "IEEE Trans. on Wireless Commun.",
-      "releaseDate": "2023",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2023"
     },
     {
       "name": "OTFS Enabled RIS-Aided Localization: Fundamental Limits and Potential Drawbacks",
       "publisher": "2023 IEEE/ION Position, Location and Navigation Symposium (PLANS)",
-      "releaseDate": "2023",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2023"
     },
     {
       "name": "Stochastic Geometry Analysis of a New GSCM with Dual Visibility Regions",
       "publisher": "IEEE PIMRC",
-      "releaseDate": "2023",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2023"
     },
     {
       "name": "Novel LoS β-γ THz Channel Unifying Molecular Re-radiation Manifestations",
       "publisher": "IEEE Trans. on Vehicular Technology",
-      "releaseDate": "2024",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2024"
     },
     {
       "name": "Novel Probabilistic Reformulation Technique for Unconstrained Discrete RIS Optimization",
       "publisher": "IEEE PIMRC",
-      "releaseDate": "2023",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2023"
     },
     {
       "name": "RIS-Aided Coexistence in Wireless Networks Using Angular Information",
       "publisher": "Nature Scientific Reports",
-      "releaseDate": "2024",
-      "url": "",
-      "summary": ""
+      "releaseDate": "2024"
     },
     {
       "name": "A Beamshaping Framework for Physically Consistent Reconfigurable Intelligent Surfaces",
-      "publisher": "submitted to ICC 2025",
-      "releaseDate": "",
-      "url": "",
-      "summary": ""
+      "publisher": "submitted to ICC 2025"
     }
   ],
   "skills": [
     {
       "name": "Communication Protocols",
       "level": "Expert",
-      "icon": "",
       "keywords": ["Wi-Fi (IEEE 802.11ad/ay)", "4G", "5G"]
     },
     {
       "name": "Programming Languages/Tools",
       "level": "Advanced",
-      "icon": "",
       "keywords": ["MATLAB", "LATEX", "Python", "C++"]
     }
   ],
@@ -183,7 +154,6 @@
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
     }
   ],
   "interests": [
@@ -193,9 +163,7 @@
   ],
   "references": [
     {
-      "name": "Available upon request",
-      "icon": "",
-      "reference": ""
+      "name": "Available upon request"
     }
   ]
 }

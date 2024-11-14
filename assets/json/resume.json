@@ -33,24 +33,16 @@
       "startDate": "2024-05-01",
       "endDate": "2024-08-01",
       "summary": "Designed and tested beam management in mmWave Wi-Fi systems.",
-      "highlights": [
-        "Designed a reference codebook with 3D sector beams.",
-        "Integrated beam-training protocol in mmwave simulator.",
-        "Collaborated with RF team for throughput tests."
-      ]
+      "highlights": ["Designed a reference codebook with 3D sector beams.", "Integrated beam-training protocol in mmwave simulator.", "Collaborated with RF team for throughput tests."]
     },
     {
       "name": "Virginia Tech",
       "position": "Graduate Research Assistant",
       "url": "https://wireless.vt.edu/",
       "startDate": "2019-08-01",
-      "endDate": "Present",
+      "endDate": "2025-05-01",
       "summary": "Research on RIS systems, ORAN, and channel modeling.",
-      "highlights": [
-        "Developed RIS-assisted THz communication framework.",
-        "Optimized RIS for coexistence with minimal information.",
-        "Established workflows for ORAN KPI extraction."
-      ]
+      "highlights": ["Developed RIS-assisted THz communication framework.", "Optimized RIS for coexistence with minimal information.", "Established workflows for ORAN KPI extraction."]
     }
   ],
   "education": [
@@ -59,11 +51,10 @@
       "location": "Blacksburg, Virginia",
       "url": "https://www.vt.edu/",
       "area": "Electrical Engineering",
-      "studyType": "Ph.D.",
+      "studyType": "MS (obtained), and Direct Ph.D.",
       "startDate": "2019-08-01",
       "endDate": "2025-05-01",
-      "score": "3.87",
-      "courses": ["Stochastic Signals and Systems"]
+      "score": "3.87"
     },
     {
       "institution": "National Institute of Technology",
@@ -73,8 +64,7 @@
       "studyType": "B.Tech.",
       "startDate": "2014-01-01",
       "endDate": "2018-01-01",
-      "score": "9.6",
-      "courses": ["Reliable IoT Communication in LTE"]
+      "score": "9.6"
     }
   ],
   "skills": [

@@ -8,24 +8,11 @@
     "summary": "Ph.D. candidate in Electrical and Computer Engineering at Virginia Tech, focusing on wireless communications, reconfigurable intelligent surfaces, and optimization.",
     "location": {
       "address": "470 Durham Hall",
-      "postalCode": "24061",
+      "postalCode": "VA 24061",
       "city": "Blacksburg",
       "countryCode": "US",
       "region": "Virginia"
     },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "Anish Pradhan",
-        "url": "https://www.linkedin.com/in/anish-pradhan/"
-      },
-      {
-        "network": "Google Scholar",
-        "username": "Anish Pradhan",
-        "url": "https://scholar.google.com/citations?user=i9w1eBAAAAAJ&hl=en"
-      }
-    ]
-  },
   "work": [
     {
       "name": "NXP Semiconductors",

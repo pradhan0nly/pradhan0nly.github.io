@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Virginia Tech <a href='https://wireless.vt.edu/'>Wireless@VT</a>.
+subtitle: PhD Candidate, Virginia Tech <a href='https://wireless.vt.edu/'>Wireless@VT</a>.
 
 profile:
   align: right
@@ -19,4 +19,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD student in the Bradley Department of Electrical and Computer Engineering at Virginia Tech under the supervision of <a href='https://www.dhillon.ece.vt.edu/'>Dr. Harpreet S. Dhillon</a>. I finished my bachelor's degree at the top of my class in Electrical and Communication Engineering from the National Institute of Technology, Durgapur, India in 2018. In my undergraduate career, I represented India in Japan in JENESYS 2016 programme with other SAARC countries under the theme 'Telecommunication' organized by the Japan International Cooperation Center (JICE) and Ministry of Foreign Affairs of both countries. I have also interned at IISc Bangalore in my junior year. After my bachelor's, I worked as a research intern at the <a href='https://www.iiitd.edu.in/~wirocomm/'>Wirocomm lab</a>, IIIT Delhi in the area of theoretical massive MIMO. My research interests are currently in the area of MIMO, optimization theory, and reconfigurable intelligent surfaces.
+I am a PhD candidate in the Bradley Department of Electrical and Computer Engineering at Virginia Tech, under the supervision of <a href='https://www.dhillon.ece.vt.edu/'>Dr. Harpreet S. Dhillon</a>. I am graduating in May 2025 and am actively looking for opportunities to collaborate and contribute to cutting-edge research and development.
+
+I completed my bachelor's degree in Electronics and Communication Engineering from the National Institute of Technology, Durgapur, India, in 2018, graduating as the top student in my class.
+
+My research focuses on wireless communications, with specific interests in MIMO systems, reconfigurable intelligent surfaces, optimization theory, phased antenna arrays, beam management, and channel modeling. I am passionate about leveraging these areas to address fundamental challenges in modern wireless systems and developing innovative solutions to improve communication efficiency and reliability.
+
+I have published my work in reputable venues such as IEEE Transactions on Wireless Communications (TWC) and Nature Scientific Reports, reflecting my commitment to high-quality research and impactful contributions to the field. Most recently, I worked as a Wireless System Engineering Intern at NXP Semiconductors, where I designed reference codebooks for mmWave systems, integrated beam-training protocols into system-level simulators, and collaborated with the RF team to conduct throughput tests on a mmWave testbed.

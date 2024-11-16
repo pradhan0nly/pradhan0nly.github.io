@@ -2,14 +2,10 @@
 layout: page
 permalink: /hobbies/
 title: hobbies
-description: A glimpse into my favorite activities outside research.
+description: A glimpse into some of my hobbies (activities I want to spend more time in but do not get the time) outside research.
 nav: true
 nav_order: 4
 ---
-
-### Hobbies and Activities
-
-Other than my research activities, some of my hobbies (activities I want to spend more time in but do not get the time) are:
 
 - **Martial arts**: I trained in Taekwondo during college, inspired by Power Rangers. Yes, I have been kicked in the head. I have also tried some parkour out when I was in San Jose for three months.
 

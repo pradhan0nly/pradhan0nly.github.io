@@ -12,7 +12,7 @@ nav_order: 4
 Other than my research activities, some of my hobbies (activities I want to spend more time in but do not get the time) are:
 
 - **Martial arts**: I trained in Taekwondo during college, inspired by Power Rangers. Yes, I have been kicked in the head. I have also tried some parkour out when I was in San Jose for three months.
-  ![Taekwondo Kicking](assets/img/output2.gif) ![Parkour Front Flip](assets/img/output1.gif)  
+  ![Taekwondo Kicking](../assets/img/output2.gif) ![Parkour Front Flip](../assets/img/output1.gif)  
 
 - **Cooking**: I’m an avid home cook inspired by **[Sorted Food](https://www.youtube.com/user/sortedfood)** and **[Bong Eats](https://www.youtube.com/@BongEats)**. My latest achievement was cooking **Beef Rendang** and saving our kitchen from burning down the apartment.
 

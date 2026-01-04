@@ -17,13 +17,21 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    {% assign page_data = nil %}
+    {% if page.data_key and site.data.site and site.data.site.pages %}
+      {% assign page_data = site.data.site.pages | where: "key", page.data_key | first %}
+    {% endif %}
+    {% assign page_toc = page.toc %}
+    {% if page_data and page_data.toc %}
+      {% assign page_toc = page_data.toc %}
+    {% endif %}
     <!-- Header -->
     {% include header.liquid %}
 
     <!-- Content -->
     <div class="container mt-5" role="main">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == 'right' %}
+      {% if page_toc and page_toc.sidebar %}
+        {% if page_toc.sidebar == 'right' %}
           <div class="row">
             <!-- main content area -->
             <div class="col-sm-9">{{ content }}</div>

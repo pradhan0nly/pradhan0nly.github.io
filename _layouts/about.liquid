@@ -1,6 +1,24 @@
 ---
 layout: default
 ---
+{% assign page_data = nil %}
+{% if page.data_key and site.data.site and site.data.site.pages %}
+  {% assign page_data = site.data.site.pages | where: "key", page.data_key | first %}
+{% endif %}
+{% assign page_title = page.title %}
+{% assign page_subtitle = page.subtitle %}
+{% assign page_profile = page.profile %}
+{% assign page_news = page.news %}
+{% assign page_selected_papers = page.selected_papers %}
+{% assign page_social = page.social %}
+{% if page_data %}
+  {% if page_data.title %}{% assign page_title = page_data.title %}{% endif %}
+  {% if page_data.subtitle %}{% assign page_subtitle = page_data.subtitle %}{% endif %}
+  {% if page_data.profile %}{% assign page_profile = page_data.profile %}{% endif %}
+  {% if page_data.news != null %}{% assign page_news = page_data.news %}{% endif %}
+  {% if page_data.selected_papers != null %}{% assign page_selected_papers = page_data.selected_papers %}{% endif %}
+  {% if page_data.social != null %}{% assign page_social = page_data.social %}{% endif %}
+{% endif %}
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
@@ -11,15 +29,15 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="desc">{{ page_subtitle }}</p>
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
+    {% if page_profile %}
+      <div class="profile float-{% if page_profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page_profile.image %}
+          {% assign profile_image_path = page_profile.image | prepend: 'assets/img/' %}
+          {% if page_profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1
@@ -28,20 +46,24 @@ layout: default
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page_profile.image
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% if page_profile.more_info %}
+          <div class="more-info">{{ page_profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    {% if page_data and page_data.content != blank %}
+      <div class="clearfix">{{ page_data.content | markdownify }}</div>
+    {% else %}
+      <div class="clearfix">{{ content }}</div>
+    {% endif %}
 
     <!-- News -->
-    {% if page.news and site.announcements.enabled %}
+    {% if page_news and site.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
@@ -57,7 +79,7 @@ layout: default
     {% endif %}
 
     <!-- Selected papers -->
-    {% if page.selected_papers %}
+    {% if page_selected_papers %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
@@ -65,7 +87,7 @@ layout: default
     {% endif %}
 
     <!-- Social -->
-    {% if page.social %}
+    {% if page_social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 

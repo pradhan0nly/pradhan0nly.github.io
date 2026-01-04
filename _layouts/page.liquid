@@ -1,14 +1,35 @@
 ---
 layout: default
 ---
+{% assign page_data = nil %}
+{% if page.data_key and site.data.site and site.data.site.pages %}
+  {% assign page_data = site.data.site.pages | where: "key", page.data_key | first %}
+{% endif %}
+{% assign page_title = page.title %}
+{% assign page_description = page.description %}
+{% if page_data and page_data.title %}
+  {% assign page_title = page_data.title %}
+{% endif %}
+{% if page_data and page_data.description %}
+  {% assign page_description = page_data.description %}
+{% endif %}
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
+    <h1 class="post-title">{{ page_title }}</h1>
+    <p class="post-description">{{ page_description }}</p>
   </header>
 
   <article>
-    {{ content }}
+    {% if page_data and page_data.content != blank %}
+      {{ page_data.content | markdownify }}
+    {% else %}
+      {{ content }}
+    {% endif %}
+    {% if page_data and page_data.show_bibliography %}
+      <div class="publications">
+        {% bibliography %}
+      </div>
+    {% endif %}
   </article>
 
   {% if page.related_publications %}

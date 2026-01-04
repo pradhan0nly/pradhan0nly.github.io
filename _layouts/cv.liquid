@@ -1,14 +1,38 @@
 ---
 layout: default
 ---
-{% unless site.data.resume %}
+{% assign page_data = nil %}
+{% if page.data_key and site.data.site and site.data.site.pages %}
+  {% assign page_data = site.data.site.pages | where: "key", page.data_key | first %}
+{% endif %}
+{% assign page_title = page.title %}
+{% assign page_description = page.description %}
+{% assign page_cv_pdf = page.cv_pdf %}
+{% if page_data %}
+  {% if page_data.title %}{% assign page_title = page_data.title %}{% endif %}
+  {% if page_data.description %}{% assign page_description = page_data.description %}{% endif %}
+  {% if page_data.cv_pdf %}{% assign page_cv_pdf = page_data.cv_pdf %}{% endif %}
+{% endif %}
+{% assign cv_href = nil %}
+{% if page_cv_pdf %}
+  {% if page_cv_pdf contains '://' %}
+    {% assign cv_href = page_cv_pdf %}
+  {% else %}
+    {% assign cv_href = page_cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+  {% endif %}
+{% endif %}
+{% assign resume_data = site.data.resume %}
+{% if site.data.site and site.data.site.resume %}
+  {% assign resume_data = site.data.site.resume %}
+{% endif %}
+{% unless resume_data %}
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
+        {{ page_title }}
+        {% if cv_href %}
           <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            href="{{ cv_href }}"
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
@@ -16,14 +40,18 @@ layout: default
           ></a>
         {% endif %}
       </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+      {% if page_description %}
+        <p class="post-description">{{ page_description }}</p>
       {% endif %}
     </header>
 
     <article>
       <div class="cv">
-        {% for entry in site.data.cv %}
+        {% assign cv_entries = site.data.cv %}
+        {% if site.data.site and site.data.site.cv %}
+          {% assign cv_entries = site.data.site.cv %}
+        {% endif %}
+        {% for entry in cv_entries %}
           <a class="anchor" id="{{ entry.title }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
@@ -51,10 +79,10 @@ layout: default
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
+        {{ page_title }}
+        {% if cv_href %}
           <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            href="{{ cv_href }}"
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
@@ -62,14 +90,14 @@ layout: default
           ></a>
         {% endif %}
       </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+      {% if page_description %}
+        <p class="post-description">{{ page_description }}</p>
       {% endif %}
     </header>
 
     <article>
       <div class="cv">
-        {% for data in site.data.resume %}
+        {% for data in resume_data %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
             {% unless site.jsonresume contains data[0] %}
               {% continue %}

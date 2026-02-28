@@ -316,7 +316,7 @@ ul.task-list input[type="checkbox"] {
     a {
       i::before {
         color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
+
       }
 
       &:hover {
@@ -336,7 +336,7 @@ ul.task-list input[type="checkbox"] {
     background-color: var(--global-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
-    transition: all 0.2s;
+
   }
 
   .top-bar {
@@ -390,7 +390,7 @@ ul.task-list input[type="checkbox"] {
     a {
       i::before {
         color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
+
       }
 
       &:hover {
@@ -799,11 +799,7 @@ footer.sticky-bottom {
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
+
 
         p {
           line-height: 1.4em;
@@ -819,11 +815,7 @@ footer.sticky-bottom {
 
       .hidden.open {
         max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
+
       }
 
       div.abstract.hidden {
@@ -872,14 +864,7 @@ code {
   padding: 3px 3px;
 }
 
-// Transitioning Themes
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: background-color 750ms, color 750ms, border-color 750ms !important;
-  transition-delay: 0ms !important;
-}
+
 
 // Extra Markdown style (post Customization)
 .post {

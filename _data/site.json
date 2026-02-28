@@ -4,7 +4,7 @@
       "key": "about",
       "permalink": "/",
       "title": "about",
-      "subtitle": "PhD Candidate, Virginia Tech <a href='https://wireless.vt.edu/' target=\"_blank\">Wireless@VT</a>.",
+      "subtitle": "PhD, Virginia Tech <a href='https://wireless.vt.edu/' target=\"_blank\">Wireless@VT</a> | Senior Systems Engineer at Tarana Wireless.",
       "profile": {
         "align": "right",
         "image": "prof_pic.jpg",
@@ -16,7 +16,7 @@
       "social": true,
       "nav": true,
       "nav_order": 1,
-      "content": "I am a PhD candidate in the Bradley Department of Electrical and Computer Engineering at Virginia Tech, under the supervision of <a href='https://www.dhillon.ece.vt.edu/' target=\"_blank\">Prof. Harpreet S. Dhillon</a>. I am graduating in May 2025 and am actively looking for opportunities to collaborate and contribute to cutting-edge research and development.\n\nI completed my bachelor's degree in Electronics and Communication Engineering from the National Institute of Technology, Durgapur, India, in 2018, graduating as the top student in my class.\n\nMy research focuses on wireless communications, with specific interests in MIMO systems, reconfigurable intelligent surfaces, optimization theory, phased antenna arrays, beam management, and channel modeling. I am passionate about leveraging these areas to address fundamental challenges in modern wireless systems and developing innovative solutions to improve communication efficiency and reliability.\n\nI have published my work in reputable venues such as IEEE Transactions on Wireless Communications (TWC) and Nature Scientific Reports, reflecting my commitment to high-quality research and impactful contributions to the field. Most recently, I worked as a Wireless System Engineering Intern at NXP Semiconductors, where I designed reference codebooks for mmWave systems, integrated beam-training protocols into system-level simulators, and collaborated with the RF team to conduct throughput tests on a mmWave testbed."
+      "content": "I received my PhD from the Bradley Department of Electrical and Computer Engineering at Virginia Tech, under the supervision of <a href='https://www.dhillon.ece.vt.edu/' target=\"_blank\">Prof. Harpreet S. Dhillon</a>. I graduated in May 2025 and am currently a Senior Systems Engineer at Tarana Wireless.\n\nI completed my bachelor's degree in Electronics and Communication Engineering from the National Institute of Technology, Durgapur, India, in 2018, graduating as the top student in my class.\n\nMy research focuses on wireless communications, with specific interests in MIMO systems, reconfigurable intelligent surfaces, optimization theory, phased antenna arrays, beam management, and channel modeling. I am passionate about leveraging these areas to address fundamental challenges in modern wireless systems and developing innovative solutions to improve communication efficiency and reliability.\n\nI have published my work in reputable venues such as IEEE Transactions on Wireless Communications (TWC) and Nature Scientific Reports, reflecting my commitment to high-quality research and impactful contributions to the field. Most recently, I worked as a Wireless System Engineering Intern at NXP Semiconductors, where I designed reference codebooks for mmWave systems, integrated beam-training protocols into system-level simulators, and collaborated with the RF team to conduct throughput tests on a mmWave testbed."
     },
     {
       "key": "publications",
@@ -43,10 +43,10 @@
       "key": "hobbies",
       "permalink": "/hobbies/",
       "title": "hobbies",
-      "description": "A glimpse into some of my hobbies (activities I want to spend more time in but do not get the time) outside research.",
+      "description": "A glimpse into some of my hobbies (activities I wish I had more time for) outside research.",
       "nav": true,
       "nav_order": 4,
-      "content": "- **Martial arts**: I trained in Taekwondo during college, inspired by Power Rangers. Yes, I have been kicked in the head. I also tried parkour when I was in San Jose for three months.\n\n   <div style=\"text-align: center;\">\n    <img src=\"../assets/img/output2.gif\" alt=\"Taekwondo Kicking\" style=\"margin-right: 10px;\"/>\n    <img src=\"../assets/img/output1.gif\" alt=\"Parkour Front Flip\"/>\n  </div>\n\n- **Cooking**: I am an avid home cook inspired by **[Sorted Food](https://www.youtube.com/user/sortedfood)** and **[Bong Eats](https://www.youtube.com/@BongEats)**. My latest achievement was cooking **Beef Rendang** and successfully saving our kitchen from burning down the apartment.\n\n- **Video Games**: I grew up with video games and have played almost every FIFA game in the series. Some of my other favorites include Apex Legends, Valorant, Assassin's Creed, Cities: Skylines, and Cyberpunk 2077.\n\n- **Bored Coding**: Sometimes, I code small quality-of-life improvement scripts. For example, I wrote a **Wordle solver** in MATLAB (not in frustration, obviously!) and I am currently repurposing an old phone as an occupancy sensor and door knock detector. With headphones on, I sometimes miss people in the living room or the sound of delivery knocks!\n\nFeel free to reach out if any of these resonate with you!"
+      "content": "- **Sports**: I trained in Taekwondo during college, inspired by Power Rangers. Yes, I have been kicked in the head. I also tried parkour when I was in San Jose for three months. Currently learning how to ride an electric longboard and focusing on improving my table tennis skills. \n\n   <div style=\"text-align: center;\">\n    <img src=\"../assets/img/output2.gif\" alt=\"Taekwondo Kicking\" style=\"margin-right: 10px;\"/>\n    <img src=\"../assets/img/tabletennis.gif\" alt=\"Table Tennis\" style=\"margin-right: 10px;\"/>\n    <img src=\"../assets/img/output1.gif\" alt=\"Parkour Front Flip\"/>\n  </div>\n\n- **Cooking**: I am an avid home cook inspired by **[Sorted Food](https://www.youtube.com/user/sortedfood)** and **[Bong Eats](https://www.youtube.com/@BongEats)**. My latest achievement was cooking **Beef Rendang** without burning down the apartment.\n\n- **Video Games**: I grew up with video games and have played almost every FIFA game (PES is better though) in the series. Some of my other favorites include Apex Legends, Valorant, Assassin's Creed, Cities: Skylines, and Cyberpunk 2077.\n\n- **Bored Coding**: Sometimes, I code small quality-of-life improvement scripts. For example, I wrote a **Wordle solver** in MATLAB (not in frustration, obviously!) and I am currently playing with openWRT on an old eBay router! \n\nFeel free to reach out if any of these resonate with you!"
     },
     {
       "key": "signal",
@@ -70,13 +70,13 @@
   "resume": {
     "basics": {
       "name": "Anish Pradhan",
-      "label": "Ph.D. Candidate (ECE)",
+      "label": "Senior Systems Engineer",
       "email": "pradhananish1@vt.edu",
       "phone": "+1 (540) 998-9087",
       "url": "https://www.linkedin.com/in/anish-pradhan/",
-      "summary": "Ph.D. candidate in Electrical and Computer Engineering at Virginia Tech, focusing on wireless communications, reconfigurable intelligent surfaces, and optimization.",
+      "summary": "Senior Systems Engineer at Tarana Wireless. Received Ph.D. in Electrical and Computer Engineering at Virginia Tech, focusing on wireless communications, reconfigurable intelligent surfaces, and optimization.",
       "location": {
-        "address": "470 Durham Hall",
+        "address": "San Jose",
         "postalCode": "VA 24061",
         "city": "Blacksburg",
         "countryCode": "US",
@@ -132,6 +132,17 @@
         ]
       },
       {
+        "name": "Virginia Tech",
+        "position": "Graduate Teaching Assistant",
+        "url": "https://ece.vt.edu/",
+        "startDate": "2019-08-01",
+        "endDate": "2020-05-01",
+        "summary": "Assisted in teaching and grading for undergraduate courses in Electrical and Computer Engineering.",
+        "highlights": [
+          "Conducted lab sessions, managed grading, and provided student guidance during office hours."
+        ]
+      },
+      {
         "name": "IIIT-Delhi",
         "position": "Research Intern",
         "url": "https://www.iiitd.ac.in/",
@@ -168,7 +179,7 @@
     "skills": [
       {
         "name": "Communication Protocols",
-        "level": "Expert",
+        "level": "Advanced",
         "keywords": [
           "Wi-Fi (IEEE 802.11ad/ay)",
           "4G",
@@ -203,7 +214,8 @@
     "interests": [
       {
         "keywords": [
-          "Wireless Communications",
+          "Multi-cell Multi-user MIMO",
+          "Interference Cancellation",
           "Reconfigurable Intelligent Surfaces",
           "Phased Antenna Array",
           "Beam Management",

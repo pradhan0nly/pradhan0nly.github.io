@@ -44,7 +44,7 @@ body {
     radial-gradient(900px 500px at 90% -20%, rgba(30, 120, 80, 0.18), transparent 55%),
     linear-gradient(180deg, rgba(9, 12, 14, 0.92), rgba(9, 12, 14, 0.98)),
     var(--global-bg-color);
-  transition: background-color 300ms ease, color 300ms ease;
+
 }
 
 body::before {
@@ -109,7 +109,7 @@ h3,
   border-bottom: 1px solid var(--global-divider-color);
   background-color: transparent !important;
   box-shadow: none;
-  transition: background-color 250ms ease, border-color 250ms ease, box-shadow 250ms ease;
+
   z-index: 1050;
   opacity: 1;
 }
@@ -180,11 +180,10 @@ html[data-theme="light"] .navbar .navbar-collapse.show {
   border-radius: 18px;
   border: 1px solid var(--global-divider-color);
   box-shadow: 0 10px 24px rgba(16, 20, 24, 0.06);
-  transition: transform 240ms ease, box-shadow 240ms ease;
+
 }
 
 .card:hover {
-  transform: translateY(-4px);
   box-shadow: 0 18px 38px rgba(16, 20, 24, 0.14);
 }
 
@@ -216,7 +215,7 @@ html[data-theme="light"] .navbar .navbar-collapse.show {
   background: transparent;
   box-shadow: none;
   position: relative;
-  transition: transform 200ms ease;
+
   margin-bottom: 0.25rem;
 }
 
@@ -224,22 +223,20 @@ html[data-theme="light"] .navbar .navbar-collapse.show {
   border-top: 1px solid var(--global-divider-color);
 }
 
-.publications ol.bibliography li:hover {
-  transform: translateY(-1px);
+// Publication preview thumbnails
+.publications .preview img {
+  border-radius: 8px;
+  border: 1px solid var(--global-divider-color);
+  object-fit: cover;
+  background: white;
 }
 
-.publications .periodical {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.5rem;
+html[data-theme="dark"] .publications .preview img {
+  filter: invert(1) hue-rotate(180deg);
+  border-color: rgba(255, 255, 255, 0.15);
+  background: #1a1a2e;
 }
 
-.publications .periodical .pub-year {
-  margin-left: auto;
-  font-variant-numeric: tabular-nums;
-  color: var(--global-text-color-light);
-}
 
 
 
@@ -250,7 +247,7 @@ html[data-theme="light"] .navbar .navbar-collapse.show {
   background: transparent;
   color: var(--global-text-color-light);
   padding: 0.5rem 0.5rem;
-  transition: all 200ms ease;
+
   line-height: 1;
   font-weight: 500;
   cursor: pointer;
@@ -288,7 +285,6 @@ html[data-theme="light"] .navbar .navbar-collapse.show {
   display: flex;
   flex-direction: column;
   transform: translateX(100%);
-  transition: transform 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
   pointer-events: none;
 }
 
@@ -328,7 +324,7 @@ html[data-theme="light"] .navbar .navbar-collapse.show {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  transition: all 150ms ease;
+
   cursor: pointer;
 }
 
@@ -370,7 +366,7 @@ html[data-theme="light"] .terminal-close:hover {
   border-radius: 6px;
   font-family: "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
   font-size: 0.75rem;
-  transition: all 200ms ease;
+
   backdrop-filter: blur(4px);
 }
 
@@ -378,7 +374,6 @@ html[data-theme="light"] .terminal-close:hover {
   border-color: rgba(255, 255, 255, 0.3);
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
-  transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -529,24 +524,13 @@ nav[data-toggle="toc"] .nav-link.active {
 
 /* ========================================================================
    GLOBAL ANIMATION KILL-SWITCH
-   Forces AL-Folio / MDBootstrap to never bounce or slide layout elements
+   Disables ALL animations, transitions, and motion effects site-wide.
    ======================================================================== */
-.wow,
-.animated,
-.bounceInUp,
-.fadeInUp,
-.fadeInDown {
+*,
+*::before,
+*::after {
   animation: none !important;
-  transform: none !important;
+  animation-duration: 0s !important;
   transition: none !important;
-}
-
-@media (prefers-reduced-motion: reduce) {
-
-  *,
-  *::before,
-  *::after {
-    animation: none !important;
-    transition: none !important;
-  }
+  transition-duration: 0s !important;
 }

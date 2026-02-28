@@ -87,10 +87,10 @@
             </a>
           {%- else -%}
             {{ author.first }}
-            {{ author.last }}
+            {{ author.last | strip }}
           {% endif %}
         {%- endif -%}
-      {% endfor %}
+      {%- endfor -%}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
       {%- assign more_authors_hide = more_authors | append: ' more author' -%}
@@ -100,7 +100,8 @@
         {%- endif -%}
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% assign author_last_stripped = author.last | strip %}
+          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author_last_stripped %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
@@ -140,7 +141,7 @@
       {% capture entrytype %}{% endcapture %}
     {% endif %}
     {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
+      {% capture entrymonth %}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}<span class="pub-year">{{entry.year}}</span>{% endcapture %}
@@ -156,9 +157,9 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != '' and entryyear != '' %}{% endif %}<br>{{ entrymonth | strip }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
-      {{ periodical | strip }}
+      {{ periodical }}
     </div>
     <div class="periodical">
       {{ entry.note | strip }}

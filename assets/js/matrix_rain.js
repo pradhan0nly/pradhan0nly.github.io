@@ -189,10 +189,12 @@
   }
 
   function updateToggle() {
-    var btn = document.getElementById("matrix-toggle");
-    if (!btn) return;
-    btn.setAttribute("aria-pressed", enabled ? "true" : "false");
-    btn.textContent = enabled ? "matrix on" : "matrix off";
+    var buttons = document.querySelectorAll(".matrix-toggle");
+    if (!buttons.length) return;
+    buttons.forEach(function (btn) {
+      btn.setAttribute("aria-pressed", enabled ? "true" : "false");
+      btn.textContent = enabled ? "matrix on" : "matrix off";
+    });
   }
 
   window.addEventListener("resize", function () {
@@ -204,12 +206,12 @@
     updateThemeColors();
     updateToggle();
     if (enabled) start();
-    var btn = document.getElementById("matrix-toggle");
-    if (btn) {
+    var buttons = document.querySelectorAll(".matrix-toggle");
+    buttons.forEach(function (btn) {
       btn.addEventListener("click", function () {
         toggle(!enabled);
       });
-    }
+    });
     document.addEventListener("click", function (e) {
       if (!enabled) return;
       if (e.target && e.target.closest && e.target.closest("a, button")) return;
@@ -249,4 +251,20 @@
       speedScale = Math.max(0.4, Math.min(2.4, speedScale + step));
     }, { passive: false });
   });
+
+  window.MatrixRain = {
+    setSpeed: function (value) {
+      if (typeof value !== "number" || isNaN(value)) return;
+      speedScale = Math.max(0.4, Math.min(2.4, value));
+    },
+    getSpeed: function () {
+      return speedScale;
+    },
+    toggle: function () {
+      toggle(!enabled);
+    },
+    enabled: function () {
+      return enabled;
+    },
+  };
 })();

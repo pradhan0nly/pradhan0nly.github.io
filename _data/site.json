@@ -9,7 +9,7 @@
         "align": "right",
         "image": "prof_pic.jpg",
         "image_circular": true,
-        "more_info": "<p>470 Durham, 1145 Perry St.</p>\n<p>Virginia Tech</p>\n<p>Blacksburg, VA 24061</p>\n<p><a href='https://drive.google.com/file/d/1LYUf8sulb7L8hC-8sC6hcx1qY2ixUrWu/view?usp=sharing' target=\"_blank\">My Resume</a></p>"
+        "more_info": "<p>470 Durham, 1145 Perry St.</p>\n<p>Virginia Tech</p>\n<p>Blacksburg, VA 24061</p>\n<p><a href='https://drive.google.com/file/d/1LYUf8sulb7L8hC-8sC6hcx1qY2ixUrWu/view?usp=sharing' target=\"_blank\">[Download CV]</a></p>"
       },
       "news": false,
       "selected_papers": false,
@@ -46,7 +46,25 @@
       "description": "A glimpse into some of my hobbies (activities I want to spend more time in but do not get the time) outside research.",
       "nav": true,
       "nav_order": 4,
-      "content": "- **Martial arts**: I trained in Taekwondo during college, inspired by Power Rangers. Yes, I have been kicked in the head. I have also tried some parkour out when I was in San Jose for three months.\n\n   <div style=\"text-align: center;\">\n    <img src=\"../assets/img/output2.gif\" alt=\"Taekwondo Kicking\" style=\"margin-right: 10px;\"/>\n    <img src=\"../assets/img/output1.gif\" alt=\"Parkour Front Flip\"/>\n  </div>\n\n- **Cooking**: I\u0192?Tm an avid home cook inspired by **[Sorted Food](https://www.youtube.com/user/sortedfood)** and **[Bong Eats](https://www.youtube.com/@BongEats)**. My latest achievement was cooking **Beef Rendang** and saving our kitchen from burning down the apartment.\n\n- **Video Games**: I grew up with video games and have played almost all the FIFA games in the series. Some other favorites include Apex Legends, Valorant, Assassin's Creed, Cities: Skylines, and Cyberpunk 2077.  \n\n- **Bored Coding**: Sometimes, I code small quality-of-life improvement scripts. For example, I wrote a **Wordle solver** in MATLAB (not in frustration, obviously!) and am currently repurposing an old phone as an occupancy sensor and door knock detector because with headphones on, I sometimes miss people in the living room or the sound of delivery knocks.\n\nFeel free to reach out if any of these resonate with you!"
+      "content": "- **Martial arts**: I trained in Taekwondo during college, inspired by Power Rangers. Yes, I have been kicked in the head. I also tried parkour when I was in San Jose for three months.\n\n   <div style=\"text-align: center;\">\n    <img src=\"../assets/img/output2.gif\" alt=\"Taekwondo Kicking\" style=\"margin-right: 10px;\"/>\n    <img src=\"../assets/img/output1.gif\" alt=\"Parkour Front Flip\"/>\n  </div>\n\n- **Cooking**: I am an avid home cook inspired by **[Sorted Food](https://www.youtube.com/user/sortedfood)** and **[Bong Eats](https://www.youtube.com/@BongEats)**. My latest achievement was cooking **Beef Rendang** and successfully saving our kitchen from burning down the apartment.\n\n- **Video Games**: I grew up with video games and have played almost every FIFA game in the series. Some of my other favorites include Apex Legends, Valorant, Assassin's Creed, Cities: Skylines, and Cyberpunk 2077.\n\n- **Bored Coding**: Sometimes, I code small quality-of-life improvement scripts. For example, I wrote a **Wordle solver** in MATLAB (not in frustration, obviously!) and I am currently repurposing an old phone as an occupancy sensor and door knock detector. With headphones on, I sometimes miss people in the living room or the sound of delivery knocks!\n\nFeel free to reach out if any of these resonate with you!"
+    },
+    {
+      "key": "signal",
+      "permalink": "/signal/",
+      "title": "signal",
+      "description": "Signal notes and experiments.",
+      "nav": false,
+      "terminal_only": true,
+      "content": "## Signal\n\nA quiet log for experiments, ideas, and traces that do not fit in the main pages yet.\n\n- Quick notes\n- Small experiments\n- Links worth keeping\n\nIf you are here, you already know the path."
+    },
+    {
+      "key": "vault",
+      "permalink": "/vault/",
+      "title": "vault",
+      "description": "Private cache of side quests.",
+      "nav": false,
+      "terminal_only": true,
+      "content": "## Vault\n\nA storage room for half-formed ideas and long-tail curiosities.\n\n- Problem sketches\n- Unreleased drafts\n- Easter eggs\n\nType `help` in the terminal for navigation."
     }
   ],
   "resume": {
@@ -79,16 +97,25 @@
     },
     "work": [
       {
+        "name": "Tarana Wireless",
+        "position": "Senior Systems Engineer",
+        "url": "https://www.taranawireless.com/",
+        "startDate": "2025-08-01",
+        "endDate": "Present",
+        "summary": "Senior Systems Engineer.",
+        "highlights": []
+      },
+      {
         "name": "NXP Semiconductors",
         "position": "Wireless System Engineering Intern",
         "url": "https://www.nxp.com/",
         "startDate": "2024-05-01",
         "endDate": "2024-08-01",
-        "summary": "Designed and tested beam management in mmWave Wi-Fi systems.",
+        "summary": "Designed, integrated, and validated beam management protocols for next-generation mmWave Wi-Fi systems.",
         "highlights": [
-          "Designed a reference codebook with 3D sector beams.",
-          "Integrated beam-training protocol in mmwave simulator.",
-          "Collaborated with RF team for throughput tests."
+          "Designed and evaluated a reference codebook featuring 3D sector beams for optimized coverage.",
+          "Integrated an advanced beam-training protocol into a realistic mmWave system-level simulator.",
+          "Collaborated cross-functionally with the RF hardware team to conduct live throughput tests on a mmWave testbed."
         ]
       },
       {
@@ -96,12 +123,23 @@
         "position": "Graduate Research Assistant",
         "url": "https://wireless.vt.edu/",
         "startDate": "2019-08-01",
-        "endDate": "2025-05-01",
-        "summary": "Research on RIS systems, ORAN, and channel modeling.",
+        "endDate": "2025-08-01",
+        "summary": "Spearheaded research initiatives focusing on Reconfigurable Intelligent Surfaces (RIS), Open RAN (O-RAN), and advanced channel modeling techniques.",
         "highlights": [
-          "Developed RIS-assisted THz communication framework.",
-          "Optimized RIS for coexistence with minimal information.",
-          "Established workflows for ORAN KPI extraction."
+          "Developed a comprehensive RIS-assisted Terahertz (THz) communication framework to enhance signal reliability.",
+          "Formulated optimization strategies for RIS networks to ensure coexistence with minimal channel state information.",
+          "Established end-to-end workflows for O-RAN Key Performance Indicator (KPI) extraction and analysis."
+        ]
+      },
+      {
+        "name": "IIIT-Delhi",
+        "position": "Research Intern",
+        "url": "https://www.iiitd.ac.in/",
+        "startDate": "2018-05-01",
+        "endDate": "2018-10-01",
+        "summary": "Researched MU-MIMO OFDM systems with non-ideal power amplifiers and phase noise.",
+        "highlights": [
+          "Investigated the behavior of MU-MIMO systems under non-ideal hardware conditions."
         ]
       }
     ],
@@ -110,11 +148,11 @@
         "institution": "Virginia Tech",
         "location": "Blacksburg, Virginia",
         "url": "https://www.vt.edu/",
-        "area": "Electrical Engineering",
-        "studyType": "MS (obtained), and Direct Ph.D.",
+        "area": "Electrical and Computer Engineering",
+        "studyType": "Direct Ph.D. (M.S. Obtained)",
         "startDate": "2019-08-01",
         "endDate": "2025-05-01",
-        "score": "3.87"
+        "score": "3.88"
       },
       {
         "institution": "National Institute of Technology",

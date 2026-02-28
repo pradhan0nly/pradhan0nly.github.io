@@ -13,14 +13,7 @@ layout: default
   {% if page_data.description %}{% assign page_description = page_data.description %}{% endif %}
   {% if page_data.cv_pdf %}{% assign page_cv_pdf = page_data.cv_pdf %}{% endif %}
 {% endif %}
-{% assign cv_href = nil %}
-{% if page_cv_pdf %}
-  {% if page_cv_pdf contains '://' %}
-    {% assign cv_href = page_cv_pdf %}
-  {% else %}
-    {% assign cv_href = page_cv_pdf | prepend: 'assets/pdf/' | relative_url %}
-  {% endif %}
-{% endif %}
+{% assign cv_href = "https://drive.google.com/file/d/1LYUf8sulb7L8hC-8sC6hcx1qY2ixUrWu/view?usp=sharing" %}
 {% assign resume_data = site.data.resume %}
 {% if site.data.site and site.data.site.resume %}
   {% assign resume_data = site.data.site.resume %}

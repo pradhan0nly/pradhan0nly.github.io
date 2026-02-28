@@ -19,7 +19,11 @@ body {
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
-  padding-top: 56px;
+  padding-top: var(--navbar-height, 76px);
+}
+
+body.fixed-top-nav.navbar-expanded {
+  padding-top: var(--navbar-expanded-height, 76px);
 }
 
 body.sticky-bottom-footer {

@@ -188,14 +188,43 @@
             </li>
           {% endif %}
           <li class="toggle-container">
-            <button id="matrix-toggle" class="matrix-toggle" type="button" aria-pressed="true" title="Toggle matrix rain">
-              matrix on
+            <button class="terminal-toggle" type="button" aria-pressed="false" title="Toggle experimental terminal">
+              terminal
             </button>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="terminal-nav" id="terminal-nav" aria-hidden="true">
+    <div class="terminal-bar">
+      <div class="terminal-title"></div>
+      <div class="terminal-actions">
+        <button class="terminal-toggle terminal-close" type="button" aria-pressed="false" title="Close Terminal"><i class="fa-solid fa-xmark"></i> close</button>
+      </div>
+    </div>
+    <div class="terminal-body">
+      <div class="terminal-links" id="terminal-links"></div>
+      <div class="terminal-output" id="terminal-output"></div>
+      <div class="terminal-input">
+        <span class="terminal-prompt">anish@site:~$</span>
+        <input id="terminal-input" type="text" autocomplete="off" spellcheck="false" placeholder="help | ls | open <page>">
+      </div>
+    </div>
+  </div>
+  <script type="application/json" id="terminal-pages-data">
+    [
+      {%- for p in site.data.site.pages -%}
+        {
+          "key": "{{ p.key }}",
+          "title": "{{ p.title }}",
+          "permalink": "{{ p.permalink }}",
+          "nav": {% if p.nav == true %}true{% else %}false{% endif %},
+          "terminal_only": {% if p.terminal_only == true %}true{% else %}false{% endif %}
+        }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ]
+  </script>
   {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">

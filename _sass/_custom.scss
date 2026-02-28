@@ -523,14 +523,63 @@ nav[data-toggle="toc"] .nav-link.active {
 }
 
 /* ========================================================================
-   GLOBAL ANIMATION KILL-SWITCH
-   Disables ALL animations, transitions, and motion effects site-wide.
+   SCROLL REVEAL & INTERACTIVE ANIMATIONS
    ======================================================================== */
-*,
-*::before,
-*::after {
-  animation: none !important;
-  animation-duration: 0s !important;
-  transition: none !important;
-  transition-duration: 0s !important;
+
+// Initial hidden state for elements that will be scroll-revealed
+html.js-enabled {
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  .card,
+  .profile,
+  .publications ol.bibliography li,
+  .grid-item {
+    &:not(.terminal-nav *) {
+      opacity: 0;
+      transform: translateY(25px);
+      visibility: hidden;
+      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: opacity, transform, visibility;
+
+      &.reveal-active {
+        opacity: 1;
+        transform: translateY(0);
+        visibility: visible;
+      }
+    }
+  }
+
+  // Staggered transitions for siblings in a list or grid
+  $max-stagger: 15;
+
+  @for $i from 1 through $max-stagger {
+    .reveal-active:nth-child(#{$i}) {
+      transition-delay: #{$i * 0.06}s;
+    }
+  }
+}
+
+// Premium hover scale for grid items and cards
+.card,
+.grid-item {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, box-shadow;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
+
+// Publication preview specific hover
+.publications .preview img {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+
+  &:hover {
+    transform: scale(1.04);
+  }
 }

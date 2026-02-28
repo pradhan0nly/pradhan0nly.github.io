@@ -286,6 +286,7 @@ html[data-theme="dark"] .publications .preview img {
   flex-direction: column;
   transform: translateX(100%);
   pointer-events: none;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .terminal-enabled .terminal-nav {
@@ -538,18 +539,34 @@ html.js-enabled {
   .profile,
   .publications ol.bibliography li,
   .grid-item {
-    &:not(.terminal-nav *) {
-      opacity: 0;
-      transform: translateY(25px);
-      visibility: hidden;
-      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-      will-change: opacity, transform, visibility;
+    opacity: 0;
+    transform: translateY(25px);
+    visibility: hidden;
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform, visibility;
 
-      &.reveal-active {
-        opacity: 1;
-        transform: translateY(0);
-        visibility: visible;
-      }
+    &.reveal-active {
+      opacity: 1;
+      transform: translateY(0);
+      visibility: visible;
+    }
+  }
+
+  // Override to ensure terminal nav items are always visible
+  .terminal-nav {
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    .card,
+    .profile,
+    .grid-item {
+      opacity: 1 !important;
+      transform: none !important;
+      visibility: visible !important;
+      transition: none !important;
     }
   }
 
